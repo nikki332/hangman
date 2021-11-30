@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf-8"/>
+<style>
+body
+	{
+      	    
+    	background-color: #001133;
+
+    }
+    #demo1{
+		text-align:center;
+		color: white;
+		font-family: "Allerta Stencil", Sans-serif;
+		text-shadow: 2px 2px 20px #ff14ff;
+		font-size:150px;}
+	#bleh{
+		text-shadow: 2px 2px 20px black;
+	
+	}
+	.btns{
+		position: absolute;
+		width:240px;
+		padding:20px;
+		font-size:32px;
+    	text-align:center;
+    	font-family:poppins;
+    	font-weight:400;
+    	border:5px solid #15f4ee;
+    	color:#15f4ee;
+    	cursor:pointer;
+    	border-radius:100px;
+    	transition:1.5s;
+    	background-color:#001133;
+		box-shadow:0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
+		text-decoration:none;
+	}
+	#topic1{
+	left:420px;
+	top:310px;
+	}
+	#topic2
+	{
+		left:750px;
+		top:310px;
+	}
+	#topic3
+	{
+		left:420px;
+		top:500px;
+	}
+	#topic4
+	{
+		left:750px;
+		top:500px;
+	}	
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+</head>
+<body>
+<div id="demo1"><b>
+HANGMAN GAME</b></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center><a href="game2.html" id="topic1" class="btns">Riddles</a></center>&nbsp;&nbsp;
+<a href="game4.html" id="topic2" class="btns">Animals</a></center>
+<center><a href="game1.html" id="topic3" class="btns">Capitals</a>&nbsp;&nbsp;
+<a href="game3.html" id="topic4" class="btns">Food</a></center>
+<script>
+	var myAudio = document.createElement("audio");
+myAudio.src = "game.mpeg";
+myAudio.play();
+</script>
+</body>
+</html>
+

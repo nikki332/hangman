@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="Game.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<a href="page2.html"><i id="back" class="fa fa-arrow-circle-left" style="font-size:52px;color:white"></i></a>
+<div id="demo1"><b>
+HANGMAN GAME</b></div>
+<br>
+<div class="myDiv">    <!--question and status box-->
+  <h2 id="showinghint"></h2>
+<h1 id="showingstatus"></h1>
+<br>
+</div>
+
+<br>
+<br>
+<audio src="wrongans.mpeg" id="wclicksound"></audio>
+<audio src="crt.mpeg" id="crtclicksound"></audio>
+<audio src="click.mpeg" id="clicksound"></audio>
+<button id="button1" class="btn" onclick="dis('A',this.id)">A</button>
+<button id="button2" class="btn" onclick="dis('B',this.id)">B</button>
+<button id="button3" class="btn" onclick="dis('C',this.id)">C</button>
+<button id="button4" class="btn" onclick="dis('D',this.id)">D</button>
+<button id="button5" class="btn" onclick="dis('E',this.id)">E</button>
+<button id="button6" class="btn" onclick="dis('F',this.id)">F</button>
+<button id="button7" class="btn" onclick="dis('G',this.id)">G</button>
+<button id="button8" class="btn" onclick="dis('H',this.id)">H</button>
+<button id="button9" class="btn" onclick="dis('I',this.id)">I</button>
+<button id="button10" class="btn" onclick="dis('J',this.id)">J</button>
+<button id="button11" class="btn" onclick="dis('K',this.id)">K</button>
+<button id="button12" class="btn" onclick="dis('L',this.id)">L</button>
+<button id="button13" class="btn" onclick="dis('M',this.id)">M</button>
+<button id="button14" class="btn" onclick="dis('N',this.id)">N</button>
+<button id="button15" class="btn" onclick="dis('O',this.id)">0</button>
+<button id="button16" class="btn" onclick="dis('P',this.id)">P</button>
+<button id="button17" class="btn" onclick="dis('Q',this.id)">Q</button>
+<button id="button18" class="btn" onclick="dis('R',this.id)">R</button>
+<button id="button19" class="btn" onclick="dis('S',this.id)">S</button>
+<button id="button20" class="btn" onclick="dis('T',this.id)">T</button>
+<button id="button21" class="btn" onclick="dis('U',this.id)">U</button>
+<button id="button22" class="btn" onclick="dis('V',this.id)">V</button>
+<button id="button23" class="btn" onclick="dis('W',this.id)">W</button>
+<button id="button24" class="btn" onclick="dis('X',this.id)">X</button>
+<button id="button25" class="btn" onclick="dis('Y',this.id)">Y</button>
+<button id="button26" class="btn" onclick="dis('Z',this.id)">Z</button>
+<button id="hint" class="btn" onclick="showhint()">HINT</button>
+<button id="playagain" onclick="bleh()" class="btn">PLAY AGAIN</button>
+<a href="page1.html" id="exit" class="btn">EXIT</a>
+
+<canvas id="canvas" height="490px" width="500px" style="background: url('https://www.textures.com/system/gallery/photos/Paper/Crumpled/38226/PaperCrumpled0004_1_350.jpg')" style="border:4px dashed white;"></canvas>
+<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+<script src="Game1.js"></script>
+<!--<script>
+	var myAudio = document.createElement("audio");
+myAudio.src = "game.mpeg";
+myAudio.play();
+</script>-->
+</body>
+</html>

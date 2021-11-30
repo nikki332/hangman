@@ -1,0 +1,212 @@
+
+	#demo1{
+		text-align:center;
+		color: white;
+		font-family: "Allerta Stencil", Sans-serif;
+		text-shadow: 2px 2px 20px #ff14ff;
+		font-size:100px;
+	}
+	body
+	{
+      	/*background: linear-gradient(90deg, rgba(131,58,180,0.7) 0%, rgba(253,29,29,0.7) 50%, rgba(252,176,69,0.7) 100%);     
+    	*/background-color: #001133;
+
+    }
+    .myDiv{
+    	border-radius:30px;
+    	text-align: center;
+    	/*background-color:cyan; */ 
+    	background-color:#FF8FCF;
+    	/*border: 5px outset red;*/
+    	box-shadow:5px 10px 8px #01FFC3;
+    	 
+
+    }
+    #button1{
+		position:absolute;
+		left:570px;
+		top:335px;
+	}
+	#button2{
+		position:absolute;
+		left:670px;
+		top:335px;
+	}
+	#button3{
+		position:absolute;
+		left:770px;
+		top:335px;
+	}
+	#button4{
+		position:absolute;
+		left:870px;
+		top:335px;
+	}
+	#button5{
+		position:absolute;
+		left:970px;
+		top:335px;
+	}
+	#button6{
+		position:absolute;
+		left:1070px;
+		top:335px;
+	}
+	#button7{
+		position:absolute;
+		left:1170px;
+		top:335px;
+	}
+	#button8{
+		position:absolute;
+		left:1270px;
+		top:335px;
+	}
+	#button9{
+		position:absolute;
+		left:570px;
+		top:435px;
+	}
+	#button10{
+		position:absolute;
+		left:670px;
+		top:435px;
+	}
+	#button11{
+		position:absolute;
+		left:770px;
+		top:435px;
+	}
+	#button12{
+		position:absolute;
+		left:870px;
+		top:435px;
+	}
+	#button13{
+		position:absolute;
+		left:970px;
+		top:435px;
+	}
+	#button14{
+		position:absolute;
+		left:1070px;
+		top:435px;
+	}
+	#button15{
+		position:absolute;
+		left:1170px;
+		top:435px;
+	}#button16{
+		position:absolute;
+		left:1270px;
+		top:435px;
+	}
+	#button17{
+		position:absolute;
+		left:570px;
+		top:535px;
+	}
+	#button18{
+		position:absolute;
+		left:670px;
+		top:535px;
+	}
+	#button19{
+		position:absolute;
+		left:770px;
+		top:535px;
+	}
+	#button20{
+		position:absolute;
+		left:870px;
+		top:535px;
+	}
+	#button21{
+		position:absolute;
+		left:970px;
+		top:535px;
+	}
+	#button22{
+		position:absolute;
+		left:1070px;
+		top:535px;
+	}
+	#button23{
+		position:absolute;
+		left:1170px;
+		top:535px;
+	}
+	#button24{
+		position:absolute;
+		left:1270px;
+		top:535px;
+	}
+	#button25{
+		position:absolute;
+		left:870px;
+		top:635px;
+	}
+	#button26{
+		position:absolute;
+		left:970px;
+		top:635px;
+	}
+	#playagain{
+		position:absolute;
+		left:900px;
+		top:735px;
+	}
+	#hint{
+		position:absolute;
+		left:600px;
+		top:735px;
+	}
+	#exit{
+		position:absolute;
+		left:1200px;
+		top:735px;
+	}
+
+    .btn{
+    	background-color:#9D72FF;
+    	border:solid;
+    	color:white;
+    	padding:13px 20px;
+    	font-size:30px;
+    	border-radius:25%;
+    	cursor:pointer;
+    	margin:10px;
+    	text-decoration:none;
+    }
+    .btn:active
+    {
+    	background-color:#4d4dff;
+    	box-shadow: 0 5px #666;
+    	transform: translateY(4px);
+    }
+    #back{
+    	position:absolute;
+    	top:10px;
+    	left:10px;
+    }
+   /* .Bbtns{
+		position: absolute;
+		width:240px;
+		padding:20px;
+		font-size:32px;
+    	text-align:center;
+    	font-family:poppins;
+    	font-weight:400;
+    	border:5px solid #15f4ee;
+    	color:#15f4ee;
+    	cursor:pointer;
+    	border-radius:100px;
+    	transition:1.5s;
+    	background-color:#001133;
+		box-shadow:0 5px 50px 0 #15f4ee inset,0 5px 50px 0 #15f4ee;
+		text-decoration:none;
+	}*/
+
+
+	
+	
